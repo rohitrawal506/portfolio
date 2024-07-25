@@ -111,7 +111,7 @@ function HireMeModal({ onClose, onRequest }) {
 											focus:ring-1 focus:ring-indigo-900 duration-500"
 										aria-label="Submit Request"
 									>
-										<Button title="Send Request" />
+										{/* <Button title="Send Request" /> */}
 									</span>
 								</div>
 							</form>
@@ -127,7 +127,7 @@ function HireMeModal({ onClose, onRequest }) {
 									focus:ring-1 focus:ring-indigo-900 duration-500"
 								aria-label="Close Modal"
 							>
-								<Button title="Close" />
+								{/* <Button title="Close" /> */}
 							</span>
 						</div>
 					</div>

@@ -1,20 +1,25 @@
-import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import { FiPhone, FiMapPin, FiMail, FiGlobe } from 'react-icons/fi';
 
 const contacts = [
 	{
 		id: 1,
-		name: 'Your Address, Your City, Your Country',
+		name: 'Ahmadabad, Gujarat, India',
 		icon: <FiMapPin />,
 	},
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'rohitrawal506@gmail.com',
 		icon: <FiMail />,
 	},
 	{
 		id: 3,
-		name: '555 8888 888',
+		name: '+91 8128071506',
 		icon: <FiPhone />,
+	},
+	{
+		id: 1,
+		name: 'Hindi, English, Gujarati',
+		icon: <FiGlobe />,
 	},
 ];
 

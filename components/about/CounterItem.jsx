@@ -1,6 +1,6 @@
 const CounterItem = ({ title, counter, measurement }) => {
 	return (
-		<div className="mb-20 sm:mb-0">
+		<div className="mb-10">
 			<h2 className="text-4xl text-center text-secondary-dark dark:text-secondary-light mb-2">
 				{counter} {measurement}
 			</h2>

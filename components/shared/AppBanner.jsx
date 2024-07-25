@@ -24,7 +24,7 @@ function AppBanner() {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
-					Hi, Iam Stoman
+					Hi, I&apos;am Rohit Jogi
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -36,7 +36,7 @@ function AppBanner() {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Full-Stack Developer & Design Enthusiast
+					A Full-Stack Developer
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -67,7 +67,9 @@ function AppBanner() {
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
 			>
-				<img
+				<Image
+				width={200}
+				height={200}
 					layout="responsive"
 					src={
 						activeTheme === 'dark'
